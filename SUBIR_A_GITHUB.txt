@@ -1,0 +1,14 @@
+COMPILAR SIN INSTALAR NADA (GitHub Actions)
+
+1. Crea cuenta en https://github.com (gratis).
+2. Arriba a la derecha: "+" > "New repository". Nombre: GodzillaMod. Public o Private. Create.
+3. En el repositorio vacio pulsa "uploading an existing file".
+4. Descomprime este zip y arrastra TODO el CONTENIDO de la carpeta GodzillaMod
+   (incluida la carpeta oculta .github y la carpeta gradle). Pulsa "Commit changes".
+   Si no te deja arrastrar carpetas ocultas, instala GitHub Desktop o usa git.
+5. Ve a la pestana "Actions". Veras "Compilar mod" ejecutandose (5-15 min).
+6. Cuando salga el check verde, entra al run y abajo en "Artifacts" descarga
+   "godzillamod-jar". Dentro esta godzillamod-1.0.0.jar.
+7. Ponlo en .minecraft/mods junto con GeckoLib 4.4.x (Minecraft 1.20.1 + Forge 47.x).
+
+Si sale una X roja, abre el run, copia el error y pegamelo aqui.

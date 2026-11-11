@@ -1,0 +1,19 @@
+COMO OBTENER EL .JAR (proyecto ya completo, no necesitas el MDK)
+
+REQUISITOS
+- Java 17 (JDK) instalado. Descarga: https://adoptium.net (Temurin 17)
+- Conexion a internet (la primera vez descarga Forge, Minecraft y GeckoLib; tarda 5-15 min)
+
+PASOS
+1. Descomprime esta carpeta.
+2. Windows: doble clic en build.bat    |    Linux/Mac: ./build.sh
+   (o en una terminal dentro de la carpeta:  gradlew build)
+3. Tu mod queda en:  build/libs/godzillamod-1.0.0.jar
+
+USARLO
+- Instala Minecraft 1.20.1 con Forge 47.x
+- Copia godzillamod-1.0.0.jar a la carpeta .minecraft/mods
+- Tambien necesitas GeckoLib 4.4.x para 1.20.1 en esa misma carpeta (CurseForge / Modrinth)
+- Juega en Survival; /summon godzillamod:godzilla_ultima o huevo en el menu creativo.
+
+Para probarlo desde IntelliJ sin exportar:  gradlew runClient

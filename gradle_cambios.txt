@@ -1,0 +1,16 @@
+=== 1) gradle.properties (reemplaza estos valores) ===
+mod_id=godzillamod
+mod_name=Godzilla Ultima
+mod_license=All Rights Reserved
+mod_version=1.0.0
+mod_group_id=com.example.godzillamod
+
+mod_description=Godzilla Ultima boss mod
+
+=== 2) build.gradle: agrega el repositorio de GeckoLib ===
+repositories {
+    maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+}
+
+=== 3) build.gradle: agrega la dependencia (dentro de dependencies { ... }) ===
+    implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.4.9')

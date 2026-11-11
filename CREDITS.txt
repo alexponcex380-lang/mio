@@ -1,0 +1,5 @@
+This work is based on "GODZILLA ULTIMA [SINGULAR POINT] (rigged)"
+(https://sketchfab.com/3d-models/godzilla-ultima-singular-point-rigged-f5bee76669834a93aaae1f3450219b08)
+by RED COMET 0079 (https://sketchfab.com/a1jjjjjjjjjjjjjjjjjjjjjz9)
+licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+Converted to a voxel/cube model for Minecraft (GeckoLib).

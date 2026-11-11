@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="godzillamod"
+version="1.0.0"
+displayName="Godzilla Ultima"
+authors="Tu nombre"
+description='''
+Godzilla Ultima (Singular Point): jefe gigante de ~30 bloques con rayo atomico, coletazo, pisoton y rugido.
+Modelo basado en "GODZILLA ULTIMA [SINGULAR POINT] (rigged)" por RED COMET 0079 (CC-BY-4.0).
+'''
+
+[[dependencies.godzillamod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.godzillamod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.godzillamod]]
+modId="geckolib"
+mandatory=true
+versionRange="[4.4,)"
+ordering="AFTER"
+side="BOTH"

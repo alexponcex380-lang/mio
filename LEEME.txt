@@ -1,0 +1,25 @@
+GODZILLA ULTIMA - Mod para Minecraft Java 1.20.1 (Forge 47.x + GeckoLib 4.4.x)
+
+INSTALACION EN TU PROYECTO
+1. Descomprime el Forge MDK 1.20.1 y abrelo en IntelliJ.
+2. Borra el codigo de ejemplo: src/main/java (ExampleMod) y src/main/resources.
+3. Copia la carpeta "src" de este zip dentro de tu proyecto (reemplaza).
+4. Aplica los cambios de "gradle_cambios.txt" (gradle.properties y build.gradle).
+5. Sincroniza Gradle, ejecuta genIntellijRuns y luego la tarea runClient.
+6. En el juego: pestana "Huevos generadores" o /summon godzillamod:godzilla_ultima
+   (juega en Survival: en Creativo Godzilla no te ataca).
+7. Para exportar: tarea "build" -> build/libs/*.jar (los jugadores tambien necesitan GeckoLib).
+
+HABILIDADES
+- Rugido al ver a un jugador y al bajar al 50% de vida (fase de furia: mas rapido, mas dano, ataques mas seguidos).
+- Rayo atomico (5 s): carga con particulas, luego barre hacia el objetivo, quema y explota donde impacta.
+- Coletazo giratorio de 360 grados (empuja y danya en radio de 26 bloques).
+- Pisoton con onda expansiva.
+- Humo constante, pasos que danan, destruye bloques al caminar, barra de jefe, animacion de muerte, loot.
+
+CONFIGURACION: config/godzillamod-common.toml (romper bloques, explosiones, multiplicador de dano, dureza maxima).
+
+NOTAS
+- Vida maxima 1024 (limite de Minecraft); recibe max. 150 de dano por golpe, inmune a explosiones, fuego, caida y ahogo.
+- En dificultad Pacifica Godzilla desaparece (comportamiento de monstruo).
+- Creditos obligatorios (CC-BY-4.0): ver CREDITS.txt.
